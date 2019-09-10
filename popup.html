@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Regular Editor</title>
+<meta charset="utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="./resource/sheet/index.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="uk-grid">
+
+	<section class="uk-width-1-3 uk-text-left">
+		<div data-uk-dropdown regular-editor-theme>
+			<div>
+				<i class="uk-icon-cube"></i>
+				<span>monokai</span>
+			</div>
+			<div class="uk-dropdown uk-dropdown-scrollable">
+				<!-- <h4 class="uk-panel-title">Theme Selector</h4> -->
+				<ul class="uk-nav uk-nav-side">
+					<li><a>default</a></li>
+					<li><a>3024-day</a></li>
+					<li><a>3024-night</a></li>
+					<li><a>abcdef</a></li>
+					<li><a>ambiance</a></li>
+					<li><a>base16-dark</a></li>
+					<li><a>base16-light</a></li>
+					<li><a>bespin</a></li>
+					<li><a>blackboard</a></li>
+					<li><a>cobalt</a></li>
+					<li><a>colorforth</a></li>
+					<li><a>darcula</a></li>
+					<li><a>dracula</a></li>
+					<li><a>duotone-dark</a></li>
+					<li><a>duotone-light</a></li>
+					<li><a>eclipse</a></li>
+					<li><a>elegant</a></li>
+					<li><a>erlang-dark</a></li>
+					<li><a>gruvbox-dark</a></li>
+					<li><a>hopscotch</a></li>
+					<li><a>icecoder</a></li>
+					<li><a>idea</a></li>
+					<li><a>isotope</a></li>
+					<li><a>lesser-dark</a></li>
+					<li><a>liquibyte</a></li>
+					<li><a>lucario</a></li>
+					<li><a>material</a></li>
+					<li><a>mbo</a></li>
+					<li><a>mdn-like</a></li>
+					<li><a>midnight</a></li>
+					<li class="uk-active"><a>monokai</a></li>
+					<li><a>neat</a></li>
+					<li><a>neo</a></li>
+					<li><a>night</a></li>
+					<li><a>oceanic-next</a></li>
+					<li><a>panda-syntax</a></li>
+					<li><a>paraiso-dark</a></li>
+					<li><a>paraiso-light</a></li>
+					<li><a>pastel-on-dark</a></li>
+					<li><a>railscasts</a></li>
+					<li><a>rubyblue</a></li>
+					<li><a>seti</a></li>
+					<li><a>shadowfox</a></li>
+					<li><a>solarized dark</a></li>
+					<li><a>solarized light</a></li>
+					<li><a>the-matrix</a></li>
+					<li><a>tomorrow-night-bright</a></li>
+					<li><a>tomorrow-night-eighties</a></li>
+					<li><a>ttcn</a></li>
+					<li><a>twilight</a></li>
+					<li><a>vibrant-ink</a></li>
+					<li><a>xq-dark</a></li>
+					<li><a>xq-light</a></li>
+					<li><a>yeti</a></li>
+					<li><a>zenburn</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="uk-width-1-3 uk-text-center">
+		<h4>Regular Editor Version 1.0</h4>
+	</section>
+
+	<section class="uk-width-1-3 uk-text-right">
+		<button class="uk-button uk-button-small uk-button-danger" id="publish">Submit</button>
+	</section>
+
+</header>
+
+<!-- Main -->
+<main>
+	<textarea id="code-regular"></textarea>
+</main>
+
+<!-- Footer -->
+<footer class="uk-grid">
+
+	<section class="uk-width-1-2 uk-text-left">
+		<span>Author By Joenix</span>
+	</section>
+
+	<section class="uk-width-1-2 uk-text-right">
+		<a href="#aside" class="uk-badge uk-badge-notification" data-uk-offcanvas>Command Manual</a>
+	</section>
+
+</footer>
+
+<!-- Aside -->
+<aside id="aside" class="uk-offcanvas">
+
+	<div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
+
+		<div class="uk-panel">
+
+<h4>Command Manual</h4>
+
+<pre>
+<span class="uk-text-large uk-text-success">Windows</span>
+<span class="uk-badge">Ctrl</span>+<span class="uk-badge">F</span>: Search 搜索
+<span class="uk-badge">Ctrl</span>+<span class="uk-badge">G</span>: Find Next 下一个
+<span class="uk-badge">Shift</span>+<span class="uk-badge">Ctrl</span>+<span class="uk-badge">G</span>: Find Previous 上一个
+<span class="uk-badge">Shift</span>+<span class="uk-badge">Ctrl</span>+<span class="uk-badge">F</span>: Replace 替换
+<span class="uk-badge">Shift</span>+<span class="uk-badge">Ctrl</span>+<span class="uk-badge">R</span>: Replace All 全部替换
+<span class="uk-badge">Alt</span>+<span class="uk-badge">G</span>: Jump To Line 跳转到行
+</pre>
+
+<pre>
+<span class="uk-text-large uk-text-warning">Mac</span>
+<span class="uk-badge">Cmd</span>+<span class="uk-badge">F</span>: Search 搜索
+<span class="uk-badge">Cmd</span>+<span class="uk-badge">G</span>: Find Next 下一个
+<span class="uk-badge">Shift</span>+<span class="uk-badge">Cmd</span>+<span class="uk-badge">G</span>: Find Previous 上一个
+<span class="uk-badge">Cmd</span>+<span class="uk-badge">Option</span>+<span class="uk-badge">F</span>: Replace 替换
+<span class="uk-badge">Shift</span>+<span class="uk-badge">Cmd</span>+<span class="uk-badge">Option</span>+<span class="uk-badge">F</span>: Replace All 全部替换
+<span class="uk-badge">Option</span>+<span class="uk-badge">G</span>: Jump To Line 跳转到行
+</pre>
+
+		</div>
+
+	</div>
+
+</aside>
+
+<script src="./resource/codemirror/lib/codemirror.js"></script>
+<script src="./resource/codemirror/mode/css/css.js"></script>
+<script src="./resource/codemirror/mode/meta.js"></script>
+<script src="./resource/codemirror/keymap/sublime.js"></script>
+
+<script src="./resource/codemirror/addon/selection/active-line.js"></script>
+<script src="./resource/codemirror/addon/edit/matchbrackets.js"></script>
+<script src="./resource/codemirror/addon/dialog/dialog.js"></script>
+<script src="./resource/codemirror/addon/search/searchcursor.js"></script>
+<script src="./resource/codemirror/addon/search/search.js"></script>
+<script src="./resource/codemirror/addon/scroll/annotatescrollbar.js"></script>
+<script src="./resource/codemirror/addon/search/matchesonscrollbar.js"></script>
+<script src="./resource/codemirror/addon/search/jump-to-line.js"></script>
+
+<script src="./resource/uikit/js/jquery.min.js"></script>
+<script src="./resource/uikit/js/uikit.min.js"></script>
+
+<script src="./resource/script/index.js"></script>
+</body>
+</html>

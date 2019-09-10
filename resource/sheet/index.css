@@ -1,0 +1,126 @@
+/* Css Reset */
+@import url('./normalize.css');
+
+
+/* Code Mirror Basic Support */
+@import url('../codemirror/lib/codemirror.css');
+
+@import url('../codemirror/theme/3024-day.css');
+@import url('../codemirror/theme/3024-night.css');
+@import url('../codemirror/theme/abcdef.css');
+@import url('../codemirror/theme/ambiance.css');
+@import url('../codemirror/theme/base16-dark.css');
+@import url('../codemirror/theme/bespin.css');
+@import url('../codemirror/theme/base16-light.css');
+@import url('../codemirror/theme/blackboard.css');
+@import url('../codemirror/theme/cobalt.css');
+@import url('../codemirror/theme/colorforth.css');
+@import url('../codemirror/theme/dracula.css');
+@import url('../codemirror/theme/duotone-dark.css');
+@import url('../codemirror/theme/duotone-light.css');
+@import url('../codemirror/theme/eclipse.css');
+@import url('../codemirror/theme/elegant.css');
+@import url('../codemirror/theme/erlang-dark.css');
+@import url('../codemirror/theme/gruvbox-dark.css');
+@import url('../codemirror/theme/hopscotch.css');
+@import url('../codemirror/theme/icecoder.css');
+@import url('../codemirror/theme/isotope.css');
+@import url('../codemirror/theme/lesser-dark.css');
+@import url('../codemirror/theme/liquibyte.css');
+@import url('../codemirror/theme/lucario.css');
+@import url('../codemirror/theme/material.css');
+@import url('../codemirror/theme/mbo.css');
+@import url('../codemirror/theme/mdn-like.css');
+@import url('../codemirror/theme/midnight.css');
+@import url('../codemirror/theme/neat.css');
+@import url('../codemirror/theme/neo.css');
+@import url('../codemirror/theme/night.css');
+@import url('../codemirror/theme/oceanic-next.css');
+@import url('../codemirror/theme/panda-syntax.css');
+@import url('../codemirror/theme/paraiso-dark.css');
+@import url('../codemirror/theme/paraiso-light.css');
+@import url('../codemirror/theme/pastel-on-dark.css');
+@import url('../codemirror/theme/railscasts.css');
+@import url('../codemirror/theme/rubyblue.css');
+@import url('../codemirror/theme/seti.css');
+@import url('../codemirror/theme/shadowfox.css');
+@import url('../codemirror/theme/solarized.css');
+@import url('../codemirror/theme/the-matrix.css');
+@import url('../codemirror/theme/tomorrow-night-bright.css');
+@import url('../codemirror/theme/tomorrow-night-eighties.css');
+@import url('../codemirror/theme/ttcn.css');
+@import url('../codemirror/theme/twilight.css');
+@import url('../codemirror/theme/vibrant-ink.css');
+@import url('../codemirror/theme/xq-dark.css');
+@import url('../codemirror/theme/xq-light.css');
+@import url('../codemirror/theme/yeti.css');
+@import url('../codemirror/theme/idea.css');
+@import url('../codemirror/theme/darcula.css');
+@import url('../codemirror/theme/zenburn.css');
+
+/* Code Mirror Default Theme */
+@import url('../codemirror/theme/monokai.css');
+
+/* Code Mirror Search Dialog */
+@import url('../codemirror/addon/dialog/dialog.css');
+
+
+/* Ant Design Css */
+@import url('../uikit/css/uikit.min.css');
+@import url('../uikit/css/uikit.gradient.min.css');
+
+
+
+/* Reset UIKit */
+.uk-offcanvas-page
+{
+	position: static;
+}
+[class*=uk-icon-]
+{
+	color: #09c;
+}
+[data-uk-dropdown]
+{
+	position: relative;
+}
+.uk-grid
+{
+	padding: 10px;
+}
+.uk-panel pre
+{
+	text-shadow: none;
+}
+.uk-form-select
+{
+	font-size: 14px;
+}
+
+
+/* Editor Sheet */
+:root
+{
+	width: 640px;
+}
+a[href]:hover
+{
+	text-decoration: none;
+}
+.CodeMirror
+{
+	height: 480px;
+}
+
+aside h4
+{
+	color: #fafafa;
+}
+aside pre
+{
+	line-height: 24px;
+}
+aside span
+{
+	margin: 0 2px;
+}
